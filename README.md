@@ -20,11 +20,11 @@ Useful resources are available for potential contributors or those interested in
 
 ## Python Package
 
-In this GitHub repository (/code) you will find the following files:
-- SIP_INVITE_20000.txt: The dataset used to train the SIP-GAN model. This dataset corresponds to the captured data from 20,000 SIP INVITE requests sent through the network.
-- toolbox.py: The library containing all the functions useful for the operation of SIP-GAN (in particular the encoder and decoder).
-- generator.py: The SIP-GAN generator. 
-- dataset.py: A python script showing an example of how to preprocessed the data and use the SIP-GAN encoder/decoder.
+In this GitHub repository you will find the following files:
+- code/SIP_INVITE_20000.txt: The dataset used to train the SIP-GAN model. This dataset corresponds to the captured data from 20,000 SIP INVITE requests sent through the network.
+- code/toolbox.py: The library containing all the functions useful for the operation of SIP-GAN (in particular the encoder and decoder).
+- code/generator.py: The SIP-GAN generator. 
+- code/dataset.py: A python script showing an example of how to preprocessed the data and use the SIP-GAN encoder/decoder.
 
 This python package is the one that allowed to validate experimentally the approach proposed in the paper. If you have any question about the source code, please contact me.
 
