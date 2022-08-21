@@ -1,6 +1,10 @@
 # SIP-GAN
 This package provides an implementation of the SIP-GAN generative method. This is a new model for SIP traffic generation that was published in ISNCC-2021. For simplicity, we refer to this model as SIP-GAN throughout the rest of this document.
 
+<p align="center">
+  <img src="sip-gan.gif" />
+</p>
+
 Any publication that discloses findings arising from using this source code or
 the model parameters should [cite](#citing-this-work) the SIP-GAN paper.
 
@@ -11,8 +15,8 @@ Main contact: Amar Meddahi (amar.meddahi1@gmail.com)
 We propose “SIP-GAN” an extension and adaptation of GANs model for SIP (network protocol used for real-time applications), aiming to process and generate SIP traffic at packet level. The proposed generic model includes an encoder, a generator, and a decoder.
 
 Useful resources are available for potential contributors or those interested in the project:
-- [Oral Presentation (slides)](https://drive.google.com/file/d/1X46W4HVXa8w9O0_vPwVUH4uILJzC5DsB/view?usp=sharing)
-- [Oral Presentation (video)](https://drive.google.com/file/d/1Bwk5z0vYMHRmkrUufYm2DRzOvYuUnmy5/view?usp=sharing)
+- [Oral Presentation (slides)](https://drive.google.com/file/d/1Xl46KMwDamX3znYjbPYyNmzu1ioW0Ise/view?usp=sharing)
+- [Oral Presentation (video)](https://drive.google.com/file/d/12PVA1hKk4zl4lIk-27NZ8gppLSMDUOZ1/view?usp=sharing)
 
 ## Python Package
 
