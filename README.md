@@ -4,37 +4,26 @@ This package provides an implementation of the SIP-GAN generative method. This i
 Any publication that discloses findings arising from using this source code or
 the model parameters should [cite](#citing-this-work) the SIP-GAN paper.
 
-## First time setup
+Main contact: Amar Meddahi (amar.meddahi1@gmail.com)
 
-The following steps are required in order to run SIP-GAN:
+## Overview
 
-1.  Install [Spyder](www.spyder-ide.org) (we recommend the cross-platform [Anaconda](www.anaconda.com) distribution).
-    *   Install
-[TensorFlow](www.tensorflow.org/install). 
-    *   For GPU support: [TensorFlow GPU](www.tensorflow.org/install/gpu).
-1.  Check that SIP-GAN will be able to use a GPU by running:
+We propose “SIP-GAN” an extension and adaptation of GANs model for SIP (network protocol used for real-time applications), aiming to process and generate SIP traffic at packet level. The proposed generic model includes an encoder, a generator, and a decoder.
 
-```python
-from tensorflow.python.client import device_lib
-print(device_lib.list_local_devices())
-```
-The output of this command should show a list of your GPUs. If it doesn't,
-check if you followed all steps correctly when setting up [TensorFlow GPU](www.codingforentrepreneurs.com/blog/install-tensorflow-gpu-windows-cuda-cudnn).
+Useful resources are available for potential contributors or those interested in the project:
+- [Oral Presentation (slides)](https://drive.google.com/file/d/1X46W4HVXa8w9O0_vPwVUH4uILJzC5DsB/view?usp=sharing)
+- [Oral Presentation (video)](https://drive.google.com/file/d/1Bwk5z0vYMHRmkrUufYm2DRzOvYuUnmy5/view?usp=sharing)
 
-## Running SIP-GAN
+## Python Package
 
-1. Clone this repository and `cd` into `/code`.
+In this GitHub repository (/code) you will find the following files:
+- SIP_INVITE_20000.txt: The dataset used to train the SIP-GAN model. This dataset corresponds to the captured data from 20,000 SIP INVITE requests sent through the network.
+- toolbox.py: The library containing all the functions useful for the operation of SIP-GAN (in particular the encoder and decoder).
+- generator.py: The SIP-GAN generator. 
+- dataset.py: A python script showing an example of how to preprocessed the data and use the SIP-GAN encoder/decoder.
 
-    ```bash
-    git clone https://github.com/amarmeddahi/sip-gan
-    ```
-1. Data preprocessing + encoder + decoder
-* text file --> Matrix: Run in `code/dataset.py` the `Data Preprocessing` part.
-* Matrix --> Images : Run in `code/dataset.py` the `Encoder` part.
-* Images --> text file: Run in `code/dataset.py` the `Decoder` part.
-3. Generator
-* Run `code/generator.py` (you can modify the parameters: batch size, epsilon, maximum iteration…).  
-	* Use the decoder part in `code/dataset.py` to create a text file from the generated samples ([txt2pcap](www.wireshark.org/docs/man-pages/text2pcap.html) to convert the text file into a pcap file that can be analyzed with a network packet analyzer).
+This python package is the one that allowed to validate experimentally the approach proposed in the paper. If you have any question about the source code, please contact me.
+
 ## Citing this work
 
 If you use the code or data in this package, please cite:
