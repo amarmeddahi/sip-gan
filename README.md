@@ -18,7 +18,7 @@ Useful resources are available for potential contributors or those interested in
 - [Oral Presentation (slides)](https://drive.google.com/file/d/1Xl46KMwDamX3znYjbPYyNmzu1ioW0Ise/view?usp=sharing)
 - [Oral Presentation (video)](https://drive.google.com/file/d/12PVA1hKk4zl4lIk-27NZ8gppLSMDUOZ1/view?usp=sharing)
 
-## Python Package
+## SIP-GAN Package
 
 In this GitHub repository you will find the following files:
 - code/SIP_INVITE_20000.txt: The dataset used to train the SIP-GAN model. This dataset corresponds to the captured data from 20,000 SIP INVITE requests sent through the network.
