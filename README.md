@@ -15,7 +15,7 @@ Main contact: Amar Meddahi (amar.meddahi1@gmail.com)
 We propose “SIP-GAN” an extension and adaptation of GANs model for SIP (network protocol used for real-time applications), aiming to process and generate SIP traffic at packet level. The proposed generic model includes an encoder, a generator, and a decoder.
 
 Useful resources are available for potential contributors or those interested in the project:
-- [Paper](https://drive.google.com/file/d/1X66ifhVLQoRDOEl8Ey0kwR1-srvdacHw/view?usp=sharing)
+- [SIP-GAN Paper](https://drive.google.com/file/d/1X66ifhVLQoRDOEl8Ey0kwR1-srvdacHw/view?usp=sharing)
 - [Oral Presentation (slides)](https://drive.google.com/file/d/1Xl46KMwDamX3znYjbPYyNmzu1ioW0Ise/view?usp=sharing)
 - [Oral Presentation (video)](https://drive.google.com/file/d/12PVA1hKk4zl4lIk-27NZ8gppLSMDUOZ1/view?usp=sharing)
 
