@@ -1,5 +1,5 @@
 # SIP-GAN
-This package provides an implementation of the SIP-GAN generative method. This is a new model for SIP traffic generation that was published in ISNCC-2021. For simplicity, we refer to this model as SIP-GAN throughout the rest of this document.
+This package provides an implementation of the SIP-GAN generative method. This is a new model for SIP traffic generation that was published in IEEE ISNCC-2021. For simplicity, we refer to this model as SIP-GAN throughout the rest of this document.
 
 <p align="center">
   <img src="sip-gan.gif" />
@@ -36,9 +36,8 @@ If you use the code or data in this package, please cite:
 ```bibtex
 @Article{SIPGAN2021,
   author  = {Amar Meddahi and Hassen Drira and Ahmed Meddahi},
-  journal = {2021 International Symposium on Networks, Computers and Communications
-(ISNCC): Artificial Intelligence and Machine Learning (ISNCC-2021 AIML)
-},
+  journal = {IEEE 2021 International Symposium on Networks, Computers and Communications
+(ISNCC'21)},
   title   = {{SIP-GAN:} Generative Adversarial Networks for {SIP} traffic generation},
   year    = {2021},
 }
