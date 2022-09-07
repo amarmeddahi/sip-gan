@@ -5,6 +5,10 @@ This package provides an implementation of the SIP-GAN generative method. This i
   <img src="sip-gan.gif" />
 </p>
 
+<p align="center">
+  figure: adversarial network traffic generation
+</p>
+
 Any publication that discloses findings arising from using this source code or
 the model parameters should [cite](#citing-this-work) the SIP-GAN paper.
 
