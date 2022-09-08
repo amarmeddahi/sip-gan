@@ -2,7 +2,7 @@
 This package provides an implementation of the SIP-GAN generative method. This is a new model for SIP traffic generation that was published in IEEE ISNCC-2021. For simplicity, we refer to this model as SIP-GAN throughout the rest of this document.
 
 <p align="center">
-  <img src="sip-gan.gif" />
+  <img src="res/sip-gan.gif" />
 </p>
 
 <p align="center">
